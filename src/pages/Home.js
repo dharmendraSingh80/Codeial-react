@@ -1,46 +1,52 @@
+import styles from '../styles/home.module.css';
+
 const Home = () => {
   return (
-    <div className="Posts-list">
-      <div className="post-wrapper">
-        <div className="post-header">
-          <div className="post-avatar">
+    <div className={styles.postsList}>
+      <div className={styles.postWrapper}>
+        <div className={styles.postHeader}>
+          <div className={styles.postAvatar}>
             <img
-              src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+              src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
               alt="user-pic"
             />
             <div>
-              <span className="post-author">Dharmendra</span>
-              <span className="post-time">a minute ago</span>
+              <span className={styles.postAuthor}>Aakasj</span>
+              <span className={styles.postTime}>a minute ago</span>
             </div>
           </div>
-          <div className="post-content">Post Content</div>
-          <div className="'post-actions">
-            <div className="post-like">
+          <div className={styles.postContent}>Post Conetnt</div>
+
+          <div className={styles.postActions}>
+            <div className={styles.postLike}>
               <img
-                src="https://image.flaticon.com/icons/svg/1077/1077035.svg"
+                src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
                 alt="likes-icon"
               />
               <span>5</span>
             </div>
-            <div className="post-comments-icon">
+
+            <div className={styles.postCommentsIcon}>
               <img
-                src="https://image.flaticon.com/icons/svg/1380/1380338.svg"
+                src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png"
                 alt="comments-icon"
               />
               <span>2</span>
             </div>
           </div>
-          <div className="post-comment-box">
-            <input placeholder="Start typing a Comment" />
+          <div className={styles.postCommentBox}>
+            <input placeholder="Start typing a comment" />
           </div>
-          <div className="post-comments-list">
-            <div className="post-comments-item">
-              <div className="post-comment-header">
-                <span className="post-comment-author">Bill</span>
-                <span className="post-comment-time">a minute ago</span>
-                <span className="post-comment-likes">22</span>
+
+          <div className={styles.postCommentsList}>
+            <div className={styles.postCommentsItem}>
+              <div className={styles.postCommentHeader}>
+                <span className={styles.postCommentAuthor}>Bill</span>
+                <span className={styles.postCommentTime}>a minute ago</span>
+                <span className={styles.postCommentLikes}>22</span>
               </div>
-              <div className="posy-comment-content">Random comment</div>
+
+              <div className={styles.postCommentContent}>Random comment</div>
             </div>
           </div>
         </div>
