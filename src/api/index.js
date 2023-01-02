@@ -51,4 +51,9 @@ export const getPosts = (page = 1, limit = 5) => {
   });
 };
 
-//  https://codesandbox.io/s/recipe-app-starter-code-forked-rlilns?file=/src/Utils/index.js
+export const login = (email, password) => {
+  return customFetch(API_URLS.login(), {
+    method: 'post',
+    body: { email, password },
+  });
+};
