@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useAuth } from '../hooks';
-import { Home, Login, Signup } from '../pages';
+import { Home, Login, Signup, Settings } from '../pages';
 import { Loader, Navbar } from './';
 
 const Page404 = () => {
@@ -21,6 +21,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+
+          <Route path="/settings" element={<Settings />} />
+
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>
