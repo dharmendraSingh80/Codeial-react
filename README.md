@@ -1,3 +1,24 @@
+# Codeial
+This is a social media web application(FE) built using React.js
+
+## Features
+- Users can register and login
+- Users can add Post and add comments
+- Users can add friends 
+- Users can like and dislike the post
+- Users can edit the Profile
+- Users can serach the users
+
+## Screenshots
+### Home page
+![Screenshot (29)](https://user-images.githubusercontent.com/114590452/219937433-d56e5052-c51f-4b3e-9d7b-ef07a3ca8e8e.png)
+
+### Profile Page
+![Screenshot (30)](https://user-images.githubusercontent.com/114590452/219937450-ac667fcf-7d20-4a06-85cf-299daba28027.png)
+
+### Login Page
+![Screenshot (31)](https://user-images.githubusercontent.com/114590452/219937468-6cea6216-a956-40ed-920c-6f1b7498d46f.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
